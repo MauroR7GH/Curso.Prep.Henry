@@ -10,13 +10,8 @@ function deObjetoAmatriz(objeto){
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
   //Escribe tu código aquí
-  // objeto = Object.entries (objeto)
-  // return objeto
-  var array = []
-  for (var key in objeto) {
-      array.push ([key, objeto[key]])
-  }
-  return array
+  objeto = Object.entries (objeto)
+  return objeto
 }
 
 
